@@ -361,8 +361,8 @@ main {
 }
 
 /* ABOUT PAGE */
-#about .instructor video{
-  volume
+#about .instructor video {
+  /* volume */
 }
 #about .instructor-img {
   /* max-height: 500px; */
@@ -431,10 +431,10 @@ main {
     font-family: "Montserrat-Light", serif;
     font-size: 1rem;
   }
-  header{
+  #landing-header {
     height: 120vh;
   }
-  header div .f-text {
+  #landing-header div .f-text {
     margin-top: 50px;
   }
   #mid {

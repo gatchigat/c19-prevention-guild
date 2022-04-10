@@ -11,11 +11,11 @@ let tomoro = "Maricel Tomoro";
 let sanPedro = "Ashley San Pedro";
 
 // MEMBERS PROFILE PIC SRC
-let gatchiProfilePic = "./images/gatchiProfile.jpg";
-let salinProfilePic = "./images/salinProfile6.jpg";
-let tomoroProfilePic = "./images/tomoroProfile.png";
-let cayariProfilePic = "./images/cayariProfile2.png";
-let sanPedroProfilePic = "./images/sanPedroProfile6.png";
+let gatchiProfilePic = "./images/gatchiProfileV.jpg";
+let salinProfilePic = "./images/salinProfileV.jpg";
+let tomoroProfilePic = "./images/tomoroProfileV.jpg";
+let cayariProfilePic = "./images/cayariProfileV2.jpg";
+let sanPedroProfilePic = "./images/sanPedroProfileV.jpg";
 
 // NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
 // ARTICLE1
@@ -202,10 +202,10 @@ function aboutLoad() {
   document.getElementsByClassName("cic")[1].innerHTML = cic;
 
   // MGA SEEN ZONE
-  document.getElementsByClassName("author-4")[0].innerHTML = cayari;
-  document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
-  document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
-  document.getElementsByClassName("author-5")[0].innerHTML = tomoro;
-  document.getElementsByClassName("author-profile-5")[0].src = tomoroProfilePic;
-  document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
+  // document.getElementsByClassName("author-4")[0].innerHTML = cayari;
+  // document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
+  // document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
+  // document.getElementsByClassName("author-5")[0].innerHTML = tomoro;
+  // document.getElementsByClassName("author-profile-5")[0].src = tomoroProfilePic;
+  // document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
 }
