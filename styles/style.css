@@ -68,7 +68,7 @@
   background-color: #d361c9;
 }
 .purple-pink-color {
-  color: #d361c9;
+  color: #d18ce0;
 }
 .montserrat {
   font-family: "Montserrat", sans-serif;
@@ -105,7 +105,8 @@
   font-weight: bolder;
   text-shadow: 1px 3px 2px #3d3d3d;
   transition: color 0.5s, text-shadow 0.2s;
-  color: #a42a9c;
+  /* color: #a267ac; */
+  color: #a3489d;
 }
 .navbar {
   /* padding: 0 0 4.5rem; */
@@ -151,7 +152,7 @@
   color: #fff;
 }
 .colored-section2 {
-  background-color: #04293a;
+  background-color: #0b3244;
   color: #fff;
 }
 .colored-section3 {
@@ -216,12 +217,13 @@ main {
 }
 
 .icon {
-  color: #c14fdd;
+  color: #a3489d;
   margin-bottom: 1rem;
+  transition: color 0.5s;
 }
 
 .icon:hover {
-  color: #e7abe7;
+  color: #f547f5;
 }
 #mid .container-fluid {
   padding: 1% 7%;
