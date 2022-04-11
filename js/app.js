@@ -15,7 +15,7 @@ let gatchiProfilePic = "./images/gatchiProfileV.jpg";
 let salinProfilePic = "./images/salinProfileV.jpg";
 let tomoroProfilePic = "./images/tomoroProfileV.jpg";
 let cayariProfilePic = "./images/cayariProfileV2.jpg";
-let sanPedroProfilePic = "./images/sanPedroProfileV.jpg";
+let sanPedroProfilePic = "./images/sanPedroProfileV2.png";
 
 // NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
 // ARTICLE1
