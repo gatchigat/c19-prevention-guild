@@ -202,10 +202,10 @@ function aboutLoad() {
   document.getElementsByClassName("cic")[1].innerHTML = cic;
 
   // MGA SEEN ZONE
-  // document.getElementsByClassName("author-4")[0].innerHTML = cayari;
-  // document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
-  // document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
-  // document.getElementsByClassName("author-5")[0].innerHTML = tomoro;
-  // document.getElementsByClassName("author-profile-5")[0].src = tomoroProfilePic;
-  // document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
+  document.getElementsByClassName("author-4")[0].innerHTML = cayari;
+  document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
+  document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
+  document.getElementsByClassName("author-5")[0].innerHTML = tomoro;
+  document.getElementsByClassName("author-profile-5")[0].src = tomoroProfilePic;
+  document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
 }

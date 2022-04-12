@@ -97,16 +97,24 @@
 .mw-25 {
   max-width: 25%;
 }
+.active {
+  color: #ffffff;
+  /* text-decoration: underline;
+  text-decoration-color: #fff; */
+  text-shadow: #ff00ed 2px 0 2px;
+  /* background-color: #a42a9c; */
+}
 #nav .navbar-brand,
 #nav .navbar-brand a {
   letter-spacing: 2px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 1.6rem;
   font-weight: bolder;
-  text-shadow: 1px 3px 2px #3d3d3d;
+  text-shadow: 0.1em 0.08em 0.1em #a42a9c, -0.1em 0.08em 0.1em #a42a9c;
   transition: color 0.5s, text-shadow 0.2s;
   /* color: #a267ac; */
-  color: #a3489d;
+  color: #ffff;
+  line-height: 1.5;
 }
 .navbar {
   /* padding: 0 0 4.5rem; */
@@ -132,12 +140,10 @@
 #nav .navbar-light:hover,
 #nav .navbar-brand:hover,
 #nav .navbar-brand a:hover {
-  text-shadow: -1px 0px 1px #8b898b;
+  color: #a267ac;
+  text-shadow: -1px 0px 1px #ffffff;
 }
-.active {
-  color: #d4b8bb;
-  text-shadow: #ff00ed 2px 0 2px;
-}
+
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #d4b8bb;
   text-shadow: #ff00ed 2px 0 2px;
@@ -421,13 +427,9 @@ main {
 @media only screen and (max-width: 500px) {
   #nav .navbar-brand,
   #nav .navbar-brand a {
-    letter-spacing: 2px;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
     font-weight: bolder;
-    text-shadow: 1px 3px 2px #3d3d3d;
-    transition: color 0.5s, text-shadow 0.2s;
-    color: #a42a9c;
   }
   .nav-link {
     font-family: "Montserrat-Light", serif;
@@ -481,6 +483,12 @@ main {
     padding: 1% 1%;
     margin: 0;
   }
+  #get-vac a:hover,
+  #get-vac .btn:hover,
+  #get-vac .btn:focus,
+  #get-vac .btn .btn-outline-awit:hover {
+    color: #a267ac;
+  }
   #get-vac iframe {
     width: 500px;
     height: auto;
@@ -492,7 +500,7 @@ main {
     width: 60px;
   }
   #footer {
-    font-size: 15px;
+    font-size: 0.7rem;
   }
   .social-icon-others {
     padding-bottom: 30px;
@@ -503,6 +511,9 @@ main {
 
   #contact {
     margin-top: 100px;
+  }
+  #contact .container-fluid {
+    padding: 5% 7%;
   }
   #about-members .author-profile-1,
   #about-members .author-profile-2,
