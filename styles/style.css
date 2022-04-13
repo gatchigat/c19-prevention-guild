@@ -189,6 +189,7 @@ main {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/header-img.jpg") center/cover no-repeat;
 }
+
 #landing-header a {
   color: #000000;
   text-decoration: none;
@@ -447,6 +448,9 @@ main {
   }
   #landing-header div .f-text {
     margin-top: 50px;
+  }
+  #landing-header .display-1 {
+    font-size: 2.5rem;
   }
   #mid {
     font-size: 22px;
