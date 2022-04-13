@@ -424,6 +424,7 @@ main {
   }
 }
 
+/* MOBILE */
 @media only screen and (max-width: 500px) {
   #nav .navbar-brand,
   #nav .navbar-brand a {
