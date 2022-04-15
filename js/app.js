@@ -12,10 +12,13 @@ let sanPedro = "Ashley San Pedro";
 
 // MEMBERS PROFILE PIC SRC
 let gatchiProfilePic = "./images/gatchiProfileV.jpg";
-let salinProfilePic = "./images/salinProfileV.jpg";
-let tomoroProfilePic = "./images/tomoroProfileV.jpg";
-let cayariProfilePic = "./images/cayariProfileV2.jpg";
-let sanPedroProfilePic = "./images/sanPedroProfileV.jpg";
+let salinProfilePic = "./images/salinProfileV8.jpg";
+let tomoroProfilePic = "./images/tomoroProfileV2.jpg";
+let cayariProfilePic = "./images/cayariProfileV3.jpg";
+let sanPedroProfilePic = "./images/sanPedroProfileV2.jpg";
+
+//MADAM
+let madamProfilePic = "./images/quelaProfileV3.png";
 
 // NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
 // ARTICLE1
@@ -188,24 +191,25 @@ function newsLoad6() {
 
 // ON LOAD ABOUT PAGE
 function aboutLoad() {
+  document.getElementsByClassName("madam-profile-1")[0].src = madamProfilePic;
   document.getElementsByClassName("author-1")[0].innerHTML = gatchi;
   document.getElementsByClassName("author-profile-1")[0].src = gatchiProfilePic;
-  document.getElementsByClassName("author-profile-1")[0].style.height = "225px";
-  document.getElementsByClassName("author-profile-1")[0].style.width = "555px";
+  // document.getElementsByClassName("author-profile-1")[0].style.height = "225px";
+  // document.getElementsByClassName("author-profile-1")[0].style.width = "555px";
   document.getElementsByClassName("author-2")[0].innerHTML = salin;
   document.getElementsByClassName("author-profile-2")[0].src = salinProfilePic;
-  document.getElementsByClassName("author-profile-2")[0].style.height = "225px";
+  // document.getElementsByClassName("author-profile-2")[0].style.height = "225px";
   document.getElementsByClassName("author-3")[0].innerHTML = sanPedro;
   document.getElementsByClassName("author-profile-3")[0].src =
     sanPedroProfilePic;
-  document.getElementsByClassName("author-profile-3")[0].style.height = "225px";
+  // document.getElementsByClassName("author-profile-3")[0].style.height = "225px";
   document.getElementsByClassName("cic")[1].innerHTML = cic;
 
   // MGA SEEN ZONE
   document.getElementsByClassName("author-4")[0].innerHTML = cayari;
   document.getElementsByClassName("author-profile-4")[0].src = cayariProfilePic;
-  document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
+  // document.getElementsByClassName("author-profile-4")[0].style.height = "225px";
   document.getElementsByClassName("author-5")[0].innerHTML = tomoro;
   document.getElementsByClassName("author-profile-5")[0].src = tomoroProfilePic;
-  document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
+  // document.getElementsByClassName("author-profile-5")[0].style.height = "225px";
 }
