@@ -23,8 +23,7 @@ let madamProfilePic = "./images/quelaProfileV3.png";
 // NEWS TITLES/DATES/ARTICLE DESCRIPTIONS
 // ARTICLE1
 let newsTitle1 = "The latest on little kids' vaccines";
-let newsImgSrc1 =
-  "https://www.rappler.com/tachyon/2021/12/united-states-washington-covid-19-moderna-vaccine-january-23-2021-reuters-scaled.jpg?resize=2560%2C1813&zoom=1";
+let newsImgSrc1 = "./images/news/news1.webp";
 let newsDate1 = "May 23, 2022 &middot; 6 min read";
 let newsDesc1 =
   "we keep close watch on discussions surrounding the emergency approval of vaccines for kids aged at least 6 months";
