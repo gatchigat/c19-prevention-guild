@@ -312,6 +312,42 @@ main {
 }
 
 /* GET VAC */
+#get-vac .button-get-vac {
+  background: #380240;
+  background-image: -webkit-linear-gradient(top, #380240, #000000);
+  background-image: -moz-linear-gradient(top, #380240, #000000);
+  background-image: -ms-linear-gradient(top, #380240, #000000);
+  background-image: -o-linear-gradient(top, #380240, #000000);
+  background-image: -webkit-gradient(to bottom, #380240, #000000);
+  -webkit-border-radius: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #ffffff;
+
+  border: solid #ffffff 1px;
+  transition: background 0.25s, background-image 0.25s, -webkit-box-shadow 0.25s,
+    -moz-box-shadow 0.25s, box-shadow 0.25s, border 0.25s, transform 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  -webkit-transition: 0.25s;
+}
+#get-vac .button-get-vac:hover {
+  border: solid #a929b9 2px;
+  background: #000000;
+  background-image: none;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em #a929b9;
+  -moz-box-shadow: 0 0.5em 0.5em -0.4em #a929b9;
+  box-shadow: 0 0.5em 0.5em -0.4em #a929b9;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  text-shadow: 2px 2px 8px #000000;
+}
+
 #get-vac .fa-solid {
   text-shadow: 0.2em 0.08em 0.1em #a42a9c, -0.2em 0.08em 0.1em #a42a9c;
   transition: color 0.5s, text-shadow 0.2s;
