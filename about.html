@@ -70,7 +70,7 @@
                         <div class="text-center my-5">
                             <h1 class="fw-bolder mb-3 montserrat">ITW E2 FINAL PROJECT ABOUT COVID-19
                             </h1>
-                            <p><img src="./images/logo2.png" alt="" class="img-fluid"></p>
+                            <p><img src="./images/logo2.png" alt="" class="img-fluid pt-3"></p>
                             <p class="lead fw-normal text-muted mb-4">This website was created as a requirement in the
                                 final period of ITW E2
                                 &lpar;Advanced Web Development&rpar;.</p>
@@ -101,8 +101,8 @@
             </div>
             <!-- Modal -->
             <div class="modal fade" id="cicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content opacity-75">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">College of the Immaculate Conception</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -115,7 +115,7 @@
                                         alt="">
                                 </div>
 
-                                <div class="col-6 w-50 pt-5">
+                                <div class="col-6 w-50 pt-xl-5">
                                     <h3 class="raleway text-black">College of the Immaculate Conception</h3>
                                 </div>
                             </div>
@@ -135,10 +135,10 @@
         <!-- About section two-->
         <section class="py-5" class="instructor">
             <div class="container px-4 my-4 px-xl-5 py-xl-2">
-                <div class="row gx-1 gx-xl-5 align-items-center">
-                    <div class="col-lg-6 order-first order-lg-last  text-end">
-                        <img class="img-fluid rounded mb-5 mb-lg-0  instructor-img text-lg-end madam-profile-1"
-                            src="./images/quelaProfileV3.png" alt="..." />
+                <div class="row gx-1 gx-lg-5 align-items-center">
+                    <div class="col-lg-6 order-first order-lg-last text-center">
+                        <img class="img-fluid rounded mb-5 mb-lg-0  ps-xl-5 instructor-img madam-profile-1"
+                            src="./images/quelaProfile6.png" alt="..." />
                     </div>
                     <!-- <div class="col-sm-1 order-1 ">
                     </div> -->
@@ -147,24 +147,54 @@
                         <p class="lead fw-normal text-muted mb-0 raleway"><span class="text-decoration-none fw-bold"><a
                                     class="text-decoration-none fw-bold link-dark"
                                     href="https://www.facebook.com/racquel.amparado" data-bs-toggle="modal"
-                                    data-bs-target="#quelaBelzModal" onclick="quelaVid()">Raquel
+                                    data-bs-target="#quelaBelzModal" onclick="">Raquel
                                     Amparado</a></span> is an IT instructor of College of the Immaculate Conception's
                             Department of Management Accountancy,
                             Technology and
 
                             Entrepreneurial Studies.</p>
-                        <!-- MODAL -->
+                        <!-- $MODAL -->
                         <div class="modal fade" id="quelaBelzModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title roboto fw-bold text-center" id="exampleModalLabel">Quela
+                                            Belz</h5>
+                                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button> -->
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./images/quelaProfileV3.png" alt="" class="img-fluid">
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary "
+                                            data-bs-dismiss="modal">Close</button>
+
+                                        <a href="https://www.facebook.com/racquel.amparado" target="_blank"><button
+                                                type="button" class="btn btn-primary">Facebook</button></a>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#quelaBelzModal2"
+                                            data-bs-dismiss="modal" class="btn btn-danger"
+                                            onclick="quelaVid()">Awit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- $NESTED MODAL -->
+                        <div class="modal fade" id="quelaBelzModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                             aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Quela Belz</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
+                                    <!-- <div class="modal-header">
+                                        <h5 class="modal-title fw-bold text-center roboto" id="exampleModalLabel2">Quela
+                                            Belz
+                                        </h5>
+                                        </div> -->
                                     <div class="modal-body">
-                                        <video id="quelaVid" width="400" height="600" controls autoplay"
+                                        <video id="quelaVid" width="400" height="450" controls autoplay"
                                             class="w-100 quelaVid">
                                             <source src="./videos/vidTik.mp4" type="video/mp4">
                                             <source src="movie.ogg" type="video/ogg">
@@ -175,24 +205,27 @@
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
                                             onclick="quelaVidStop()">Close</button>
 
-                                        <a href="https://www.facebook.com/racquel.amparado"><button type="button"
-                                                class="btn btn-primary">Facebook</button></a>
+                                        <button class="btn btn-primary" data-bs-target="#quelaBelzModal"
+                                            data-bs-toggle="modal" data-bs-dismiss="modal">Back
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
         <!-- Team members section-->
         <section class="py-5 colored-section2" id="about-members">
-            <div class="container px-5 my-5">
+            <div class="container px-5 my-5 ">
                 <div class="text-center">
                     <h2 class="fw-bolder montserrat">Our group</h2>
                     <p class="lead fw-normal text-muted mb-5"></p>
                 </div>
-                <div class="row gx-1 gx-lg-1 row-cols-1 row-cols-sm-2 row-cols-xl-5 justify-content-center">
+                <div
+                    class="row gx-1 gx-lg-1 row-cols-1 row-cols-sm-2 row-cols-lg-5 row-cols-xl-5 justify-content-center">
                     <div class="col mb-5 mb-5 mb-xl-0">
                         <div class="text-center">
                             <img class="img-fluid rounded-circle mb-4 px-4 author-profile-1" src="" alt="..." />
@@ -214,6 +247,8 @@
                             <div class="fst-italic text-muted">Member</div>
                         </div>
                     </div>
+
+                    <!-- !MGA SEEN ZONE -->
                     <div class="col mb-5">
                         <div class="text-center">
                             <img class="img-fluid rounded-circle mb-4 px-4 author-profile-4" src="" alt="..." />
@@ -234,12 +269,12 @@
     </main>
     <!-- !Footer -->
     <footer class="colored-section pt-2" id="footer">
-        <div class="container">
-            <div class="row">
+        <div class="container ">
+            <div class="row justify-content-between">
 
-                <div class="col-5 my-0 py-3">
+                <div class="col-6 my-0 py-3">
                     <div class="row">
-                        <img class="mx-0 px-0"
+                        <img class="mx-xl-0 px-0 mx-5"
                             src="https://static.wixstatic.com/media/556956_d2886ec2f9ee4bc8b4c48b68d935c0ed~mv2.png/v1/fill/w_111,h_111,al_c,usm_0.66_1.00_0.01,enc_auto/CIC%20Logo%20FB_01.png"
                             alt="">
                         <div class="text-start col pt-3 px-0 mx-0 ms-1">
@@ -248,24 +283,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1 filler"></div>
-                <div class="col-1 filler"></div>
-                <!-- <div class="c"> -->
-                <div class="col-5 social-icon-wrapper pt-3 text-start">
+
+                <div class="col-6 social-icon-wrapper pt-3 text-start">
                     <a href="https://www.facebook.com/CIC.Cabanatuan/" target="blank"> <i
-                            class=" social-icon-others fab fa-facebook-f "></i></a>
+                            class=" social-icon-others fab fa-facebook-f fa-lg"></i></a>
                     <a href="https://mobile.twitter.com/cic_cabanatuan" target="blank"> <i
-                            class=" social-icon-others fab fa-twitter "></i></a>
+                            class=" social-icon-others fab fa-twitter fa-lg "></i></a>
                     <a href="https://www.instagram.com/cic.cabanatuan/?hl=en" target="blank"> <i
-                            class=" social-icon-others fab fa-instagram "></i></a>
-                    <a href="mailto:06411281@cic.edu.ph"> <i class=" social-icon-others fas fa-envelope "></i></a>
+                            class=" social-icon-others fab fa-instagram fa-lg"></i></a>
+                    <a href="mailto:06411281@cic.edu.ph"> <i class=" social-icon-others fas fa-envelope fa-lg"></i></a>
 
 
                     <p class="text-start py-0 my-0">©Copyright 2022 <span class="webName"></span></p>
                     <p class="text-start py-0 my-0">Group 2 ITW E2</p>
 
                 </div>
-
             </div>
         </div>
     </footer>
