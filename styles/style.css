@@ -272,6 +272,9 @@ main {
   margin: 10px; */
   transition: all 1s;
 }
+#gallery .img7 {
+  height: 30vh;
+}
 .gallery img:hover {
   transform: scale(1.5);
   animation: ease-in;
