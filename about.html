@@ -64,7 +64,7 @@
     </section>
     <main class="flex-shrink-0 raleway" id="about">
 
-        <!-- Header-->
+        <!-- !HEADER SECTION-->
         <header class="py-5">
             <div class="container px-5">
                 <div class="row justify-content-center">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </header>
-        <!-- ABOUT SCHOOL-->
+        <!-- !ABOUT SCHOOL SECTION-->
         <section class="pb-5 pt-3 pt-xl-5 colored-section2" id="scroll-target">
             <div class="container px-4 p-xl-5 my-3 my-xl-5">
                 <div class="row gx-1 gx-lg-5 align-items-center">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <!-- MODAL SCHOOL-->
+            <!-- $MODAL SCHOOL-->
             <div class="modal fade" id="cicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content opacity-75">
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </section>
-        <!-- About section two-->
+        <!-- !QUELA SECTION -->
         <section class="py-5" class="instructor">
             <div class="container px-4 my-4 px-xl-5 py-xl-2">
                 <div class="row gx-1 gx-lg-5 align-items-center">
@@ -183,12 +183,13 @@
                                         <button type="button" data-bs-toggle="modal" data-bs-target="#quelaBelzModal2"
                                             data-bs-dismiss="modal" class="btn btn-danger"
                                             onclick="quelaVid()">Awit</button>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- $NESTED MODAL -->
+                        <!-- $NESTED MODAL1 -->
                         <div class="modal fade" id="quelaBelzModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
                             aria-hidden="true">
                             <div class="modal-dialog">
@@ -213,16 +214,81 @@
                                         <button class="btn btn-primary" data-bs-target="#quelaBelzModal"
                                             data-bs-toggle="modal" data-bs-dismiss="modal">Back
                                         </button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#quelaBelzModal3"
+                                            data-bs-dismiss="modal" class="btn btn-danger"
+                                            onclick="quelaVidStop();quelaVid2()">Awit2</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- $NESTED MODAL2 -->
+                        <div class="modal fade" id="quelaBelzModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header">
+                                        <h5 class="modal-title fw-bold text-center roboto" id="exampleModalLabel2">Quela
+                                            Belz
+                                        </h5>
+                                        </div> -->
+                                    <div class="modal-body">
+                                        <video id="quelaVid2" width="400" height="450" controls autoplay"
+                                            class="w-100 quelaVid2">
+                                            <source src="./videos/vidTik3.mp4" type="video/mp4">
+                                            <source src="movie.ogg" type="video/ogg">
 
+                                        </video>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                            onclick="quelaVidStop2()">Close</button>
+
+                                        <button class="btn btn-primary" data-bs-target="#quelaBelzModal"
+                                            data-bs-toggle="modal" data-bs-dismiss="modal"
+                                            onclick="quelaVidStop2()">Back
+                                        </button>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#quelaBelzModal4"
+                                            data-bs-dismiss="modal" class="btn btn-danger"
+                                            onclick="quelaVidStop2();quelaVid3()">Awit3</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- $NESTED MODAL3 -->
+                        <div class="modal fade" id="quelaBelzModal4" tabindex="-1" aria-labelledby="exampleModalLabel4"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header">
+                                        <h5 class="modal-title fw-bold text-center roboto" id="exampleModalLabel2">Quela
+                                            Belz
+                                        </h5>
+                                        </div> -->
+                                    <div class="modal-body">
+                                        <video id="quelaVid3" width="400" height="450" controls autoplay"
+                                            class="w-100 quelaVid2">
+                                            <source src="./videos/vidTik2.mp4" type="video/mp4">
+                                            <source src="movie.ogg" type="video/ogg">
+
+                                        </video>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                            onclick="quelaVidStop3()">Close</button>
+
+                                        <button class="btn btn-primary" data-bs-target="#quelaBelzModal"
+                                            data-bs-toggle="modal" data-bs-dismiss="modal"
+                                            onclick="quelaVidStop3()">Back
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Team members section-->
+        <!-- !GROUP MEMBER SECTION-->
         <section class="py-5 colored-section2" id="about-members">
             <div class="container px-5 my-5 ">
                 <div class="text-center">
