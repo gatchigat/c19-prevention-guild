@@ -13,7 +13,7 @@ let sanPedro = "Ashley San Pedro";
 let gatchiProfilePic = "./images/gatchiProfileV.jpg";
 let salinProfilePic = "./images/salinProfileV8.jpg";
 let tomoroProfilePic = "./images/tomoroProfileV2.jpg";
-let cayariProfilePic = "./images/cayariProfileV3.jpg";
+let cayariProfilePic = "./images/cayariProfileV5.jpg";
 let sanPedroProfilePic = "./images/sanPedroProfileV2.jpg";
 
 // CIC DIR
