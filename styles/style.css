@@ -336,8 +336,8 @@ main {
   color: #ffffff;
 
   border: solid #ffffff 1px;
-  transition: background 0.25s, background-image 0.25s, -webkit-box-shadow 0.25s,
-    -moz-box-shadow 0.25s, box-shadow 0.25s, border 0.25s, transform 0.25s;
+  transition: background 0.25s, background-image 0.25s, -webkit-box-shadow 0.25s, -moz-box-shadow 0.25s,
+    box-shadow 0.25s, border 0.25s, transform 0.25s;
   -moz-transition: 0.25s;
   -o-transition: 0.25s;
   -webkit-transition: 0.25s;
@@ -415,8 +415,7 @@ main {
   font-size: 20px;
   font-weight: bolder;
   font-family: "Roboto", sans-serif;
-  transition: -webkit-box-shadow 0.25s, -moz-box-shadow 0.25s, box-shadow 0.25s,
-    border 0.25s, transform 0.25s;
+  transition: -webkit-box-shadow 0.25s, -moz-box-shadow 0.25s, box-shadow 0.25s, border 0.25s, transform 0.25s;
   -moz-transition: 0.25s;
   -o-transition: 0.25s;
   -webkit-transition: 0.25s;
